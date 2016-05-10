@@ -209,9 +209,9 @@
     </module>
     
     <module name="org.apache.httpcomponents" skip="true">
-        <include artifact=":httpcore" />
-        <include artifact=":httpclient" />
-        <include artifact=":httpmime" />
+        <include artifact="org.apache.httpcomponents:httpcore" />
+        <include artifact="org.apache.httpcomponents:httpclient" />
+        <include artifact="org.apache.httpcomponents:httpmime" />
     </module>
 
     <module name="org.apache.james.mime4j" skip="true">

@@ -145,6 +145,10 @@
         <include artifact="org.apache.servicemix.bundles:(.*)" />
     </module>
     
+    <module name="org.apache.tomcat.embed" skip="true">
+        <include artifact="org.apache.tomcat.embed:(.*)" />
+    </module>
+    
     <module name="org.codehaus.plexus" skip="true">
         <include artifact="org.codehaus.plexus:(.*)" />
     </module>
@@ -223,10 +227,16 @@
         <include artifact="org.ow2.asm:asm-commons"/>
     </module>
 
-    <module name="org.scala"  skip="true">
+    <module name="org.scala" skip="true">
         <include artifact="org.scala-lang:scala-compiler" />
         <include artifact="org.scala-lang:scala-reflect" />
         <include artifact="org.scala-lang:scalap" />
+    </module>
+
+    <module name="org.springframework.boot" skip="true">
+        <include artifact="org.springframework.boot:spring-boot" />
+        <include artifact="org.springframework.boot:spring-boot-autoconfigure" />
+        <include artifact="org.springframework.boot:spring-boot-configuration-processor" />
     </module>
 
 </modules>
