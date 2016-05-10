@@ -72,6 +72,8 @@
 /org/apache/camel/component/mina2/main/camel-mina2-2.18-SNAPSHOT.jar
 /org/apache/camel/component/mqtt/main/camel-mqtt-2.18-SNAPSHOT.jar
 /org/apache/camel/component/mvel/main/camel-mvel-2.18-SNAPSHOT.jar
+/org/apache/camel/component/nats/main/camel-nats-2.18-SNAPSHOT.jar
+/org/apache/camel/component/nats/main/jnats-0.4.1.jar
 /org/apache/camel/component/netty4/main/camel-netty4-2.18-SNAPSHOT.jar
 /org/apache/camel/component/ognl/main/camel-ognl-2.18-SNAPSHOT.jar
 /org/apache/camel/component/protobuf/main/camel-protobuf-2.18-SNAPSHOT.jar

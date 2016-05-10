@@ -4,6 +4,7 @@
 	^com/google/protobuf
 	^com/codahale(.*)
 	^groovy(.*)
+	^io/nats(.*)
 	^io/swagger(.*)
 	^net/sf/saxon(.*)
 	^org/apache/abdera(.*)
@@ -13,9 +14,9 @@
 	^org/apache/cxf
 	^org/apache/cxf/binding(.*)
 	^org/apache/cxf/bus(.*)
-    ^org/apache/cxf/headers(.*)
+	^org/apache/cxf/headers(.*)
 	^org/apache/cxf/interceptor(.*)
-    ^org/apache/cxf/message(.*)
+	^org/apache/cxf/message(.*)
 	^org/apache/cxf/sts(.*)
 	^org/apache/cxf/transport
 	^org/apache/cxf/transport/http(.*)
@@ -35,7 +36,7 @@
 	^org/infinispan/commons(.*)
 	^org/infinispan/manager(.*)
 	^org/springframework(.*)
-    ^org/xbill(.*)
+	^org/xbill(.*)
 	^org/xmlsoap(.*)
 	^schema/(.*)
 	^schemas/(.*)
